@@ -2,10 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>9.0</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\IdentityEngine.Storage\IdentityEngine.Storage.csproj" />
+      <ProjectReference Include="..\IdentityEngine.Models\IdentityEngine.Models.csproj" />
     </ItemGroup>
-  
+
 </Project>
